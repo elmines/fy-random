@@ -1,0 +1,19 @@
+{
+  "name": "fy-shuffle",
+  "version": "1.0.0",
+  "description": "Random shuffling with the Fisher-Yates algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmines/fy-shuffle.git"
+  },
+  "keywords": [
+    "shuffle",
+    "random"
+  ],
+  "author": "Ethan L. Mines",
+  "license": "ISC"
+}
