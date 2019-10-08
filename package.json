@@ -1,6 +1,6 @@
 {
-  "name": "fy-shuffle",
-  "version": "1.0.0",
+  "name": "fy-random",
+  "version": "1.0.1",
   "description": "Random shuffling with the Fisher-Yates algorithm",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elmines/fy-shuffle.git"
+    "url": "git+https://github.com/elmines/fy-random.git"
   },
   "keywords": [
     "shuffle",

@@ -1,11 +1,14 @@
 
 //Fisher-Yates Shuffle
-function permutation(n) {
+function permutation(n, random) {
+  if (random === null || random === undefined)
+    random = Math.random
+
   var indices = [];
   var struck = Array(n).fill(false);
   var numUnstruck = n;
   do {
-    const steps = Math.trunc( 1 + Math.random()*numUnstruck );
+    const steps = Math.trunc( 1 + random()*numUnstruck );
     let i, j;
     for (i = 0, j = 0; j < steps; ++i) {
       if (!struck[i]) ++j;
